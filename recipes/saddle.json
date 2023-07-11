@@ -1,0 +1,31 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+        "identifier": "minecraft:saddle"
+        },
+
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "A A",
+            "BBB",
+            "C C"
+        ],
+        "key": {
+            "A": {
+            "item": "minecraft:string"
+            },
+            "B": {
+            "item": "minecraft:leather"
+            },
+            "C": {
+            "item": "minecraft:copper_ingot"
+            }
+        },
+        "result" : {
+            "count" : 1,
+            "data" : 0,
+            "item" : "minecraft:saddle"
+        }
+    }
+}
